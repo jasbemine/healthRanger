@@ -127,7 +127,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.81176471709999998" green="0.6784313917" blue="0.56862747670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="35"/>
-                                <state key="normal" title="Sign Up">
+                                <state key="normal" title="Login">
                                     <color key="titleColor" red="0.18823529780000001" green="0.31372550129999999" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -426,7 +426,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.81176471709999998" green="0.6784313917" blue="0.56862747670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="35"/>
-                                <state key="normal" title="Login ">
+                                <state key="normal" title="Sign Up">
                                     <color key="titleColor" red="0.18823529780000001" green="0.31372550129999999" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -617,7 +617,7 @@
         <segue reference="XiG-U5-222"/>
         <segue reference="jYi-M5-cTi"/>
         <segue reference="hbP-oh-lMO"/>
-        <segue reference="sUs-dq-7IQ"/>
+        <segue reference="a4m-S0-4wr"/>
         <segue reference="jOc-Mh-Iae"/>
     </inferredMetricsTieBreakers>
     <resources>
