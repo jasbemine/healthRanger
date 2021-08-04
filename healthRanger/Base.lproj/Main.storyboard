@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="c8Q-TN-ryk">
             <objects>
-                <viewController id="hi2-N6-Sf1" sceneMemberID="viewController">
+                <viewController id="hi2-N6-Sf1" customClass="LoginViewController" customModule="healthRanger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pg9-km-XZZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,10 +162,10 @@
             </objects>
             <point key="canvasLocation" x="760.86956521739137" y="77.678571428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="eZ6-74-ppL">
             <objects>
-                <viewController id="NPX-Su-vGS" sceneMemberID="viewController">
+                <viewController id="NPX-Su-vGS" customClass="HomeViewController" customModule="healthRanger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="slI-1g-p7o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -307,10 +307,10 @@
             </objects>
             <point key="canvasLocation" x="1679.7101449275362" y="77.678571428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--History View Controller-->
         <scene sceneID="RDr-pw-esz">
             <objects>
-                <viewController id="sD7-5v-YAb" sceneMemberID="viewController">
+                <viewController id="sD7-5v-YAb" customClass="HistoryViewController" customModule="healthRanger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CYd-Il-TGs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -361,10 +361,10 @@
             </objects>
             <point key="canvasLocation" x="2714" y="78"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="Z40-vi-GG5">
             <objects>
-                <viewController id="Wfd-x3-nmP" sceneMemberID="viewController">
+                <viewController id="Wfd-x3-nmP" customClass="DetailsViewController" customModule="healthRanger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="09q-Sc-Iqg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -477,10 +477,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="750"/>
         </scene>
-        <!--View Controller-->
+        <!--Blood Pressure View Controller-->
         <scene sceneID="2O2-of-RkE">
             <objects>
-                <viewController id="JA3-iq-RzP" sceneMemberID="viewController">
+                <viewController id="JA3-iq-RzP" customClass="BloodPressureViewController" customModule="healthRanger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a3H-JN-jYS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -544,10 +544,10 @@
             </objects>
             <point key="canvasLocation" x="2294" y="840"/>
         </scene>
-        <!--View Controller-->
+        <!--Heart Rate View Controller-->
         <scene sceneID="OFr-bD-0WW">
             <objects>
-                <viewController id="oR5-GT-C5D" sceneMemberID="viewController">
+                <viewController id="oR5-GT-C5D" customClass="HeartRateViewController" customModule="healthRanger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Faq-Z7-2eX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -617,7 +617,7 @@
         <segue reference="XiG-U5-222"/>
         <segue reference="jYi-M5-cTi"/>
         <segue reference="hbP-oh-lMO"/>
-        <segue reference="p7Y-Oj-dhD"/>
+        <segue reference="sUs-dq-7IQ"/>
         <segue reference="jOc-Mh-Iae"/>
     </inferredMetricsTieBreakers>
     <resources>

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A212861826BB08DB00DF73CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212861726BB08DB00DF73CE /* LoginViewController.swift */; };
+		A212861A26BB08FC00DF73CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212861926BB08FC00DF73CE /* HomeViewController.swift */; };
+		A212861C26BB092200DF73CE /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212861B26BB092200DF73CE /* HistoryViewController.swift */; };
+		A212861E26BB095500DF73CE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212861D26BB095500DF73CE /* DetailsViewController.swift */; };
+		A212862026BB097000DF73CE /* HeartRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212861F26BB097000DF73CE /* HeartRateViewController.swift */; };
+		A212862226BB098C00DF73CE /* BloodPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212862126BB098C00DF73CE /* BloodPressureViewController.swift */; };
 		DCB6F2EF26B9EF4D00EBD9BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB6F2EE26B9EF4D00EBD9BB /* AppDelegate.swift */; };
 		DCB6F2F126B9EF4D00EBD9BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB6F2F026B9EF4D00EBD9BB /* SceneDelegate.swift */; };
 		DCB6F2F326B9EF4D00EBD9BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB6F2F226B9EF4D00EBD9BB /* ViewController.swift */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A212861726BB08DB00DF73CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A212861926BB08FC00DF73CE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A212861B26BB092200DF73CE /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A212861D26BB095500DF73CE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A212861F26BB097000DF73CE /* HeartRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateViewController.swift; sourceTree = "<group>"; };
+		A212862126BB098C00DF73CE /* BloodPressureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureViewController.swift; sourceTree = "<group>"; };
 		DCB6F2EB26B9EF4D00EBD9BB /* healthRanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthRanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB6F2EE26B9EF4D00EBD9BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCB6F2F026B9EF4D00EBD9BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +117,12 @@
 				DCB6F2F026B9EF4D00EBD9BB /* SceneDelegate.swift */,
 				DCB6F2F226B9EF4D00EBD9BB /* ViewController.swift */,
 				DCB6F2F426B9EF4D00EBD9BB /* Main.storyboard */,
+				A212862126BB098C00DF73CE /* BloodPressureViewController.swift */,
+				A212861F26BB097000DF73CE /* HeartRateViewController.swift */,
+				A212861D26BB095500DF73CE /* DetailsViewController.swift */,
+				A212861B26BB092200DF73CE /* HistoryViewController.swift */,
+				A212861926BB08FC00DF73CE /* HomeViewController.swift */,
+				A212861726BB08DB00DF73CE /* LoginViewController.swift */,
 				DCB6F2FA26B9EF4E00EBD9BB /* Assets.xcassets */,
 				DCB6F2FC26B9EF4E00EBD9BB /* LaunchScreen.storyboard */,
 				DCB6F2FF26B9EF4E00EBD9BB /* Info.plist */,
@@ -264,7 +282,13 @@
 				DCB6F2F326B9EF4D00EBD9BB /* ViewController.swift in Sources */,
 				DCB6F2EF26B9EF4D00EBD9BB /* AppDelegate.swift in Sources */,
 				DCB6F2F926B9EF4D00EBD9BB /* healthRanger.xcdatamodeld in Sources */,
+				A212861E26BB095500DF73CE /* DetailsViewController.swift in Sources */,
+				A212861826BB08DB00DF73CE /* LoginViewController.swift in Sources */,
 				DCB6F2F126B9EF4D00EBD9BB /* SceneDelegate.swift in Sources */,
+				A212862026BB097000DF73CE /* HeartRateViewController.swift in Sources */,
+				A212861C26BB092200DF73CE /* HistoryViewController.swift in Sources */,
+				A212862226BB098C00DF73CE /* BloodPressureViewController.swift in Sources */,
+				A212861A26BB08FC00DF73CE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
