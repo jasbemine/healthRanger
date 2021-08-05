@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -131,7 +132,8 @@
                                     <color key="titleColor" red="0.18823529780000001" green="0.31372550129999999" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="NPX-Su-vGS" kind="show" id="zmy-mr-0Za"/>
+                                    <action selector="loginTapped:" destination="hi2-N6-Sf1" eventType="touchUpInside" id="SKR-5j-VAB"/>
+                                    <segue destination="NPX-Su-vGS" kind="show" identifier="loginSegue" id="zmy-mr-0Za"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="865969" translatesAutoresizingMaskIntoConstraints="NO" id="8sU-Rg-3zD">
@@ -149,18 +151,29 @@
                                 <color key="textColor" red="0.81176471709999998" green="0.6784313917" blue="0.56862747670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCT-Mz-7Ug">
+                                <rect key="frame" x="67" y="496" width="280" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cF2-x7-fan"/>
                         <color key="backgroundColor" red="0.18823529780000001" green="0.31372550129999999" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="3ce-Fe-lit"/>
                     <connections>
-                        <segue destination="NPX-Su-vGS" kind="show" id="LB5-x3-I6S"/>
+                        <outlet property="errorT" destination="cCT-Mz-7Ug" id="h59-Jc-xGo"/>
+                        <outlet property="mailT" destination="N7v-w7-njI" id="M6f-10-Iam"/>
+                        <outlet property="pwT" destination="Otg-Ji-Vrf" id="v4N-sR-JAh"/>
+                        <segue destination="NPX-Su-vGS" kind="show" id="rAc-0G-heI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwj-Af-6zz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="760.86956521739137" y="77.678571428571431"/>
+            <point key="canvasLocation" x="886" y="78"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="eZ6-74-ppL">
@@ -305,7 +318,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SXI-7f-7uR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1679.7101449275362" y="77.678571428571431"/>
+            <point key="canvasLocation" x="1755" y="78"/>
         </scene>
         <!--History View Controller-->
         <scene sceneID="RDr-pw-esz">
@@ -359,7 +372,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3xb-9S-rVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2714" y="78"/>
+            <point key="canvasLocation" x="2633" y="78"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="Z40-vi-GG5">
@@ -639,7 +652,7 @@
         <segue reference="XiG-U5-222"/>
         <segue reference="jYi-M5-cTi"/>
         <segue reference="hbP-oh-lMO"/>
-        <segue reference="N5V-6m-aV0"/>
+        <segue reference="rAc-0G-heI"/>
         <segue reference="jOc-Mh-Iae"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -649,5 +662,8 @@
         <image name="heartpic" width="850" height="478"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="object-hat-ranger" width="1000" height="1000"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

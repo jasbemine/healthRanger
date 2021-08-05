@@ -9,13 +9,33 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+
+    @IBOutlet weak var mailT: UITextField!
+    @IBOutlet weak var pwT: UITextField!
+    
+    
+    var email = ""
+    var password = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        errorT.isHidden = true
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var errorT: UILabel!
+    
+    @IBAction func loginTapped(_ sender: UIButton) {
+        let email: String = mailT.text!
+        let password: String = pwT.text!
+        if email == "jasbemine1@gmail.com" && password == "kodewithklossy"{
+            self.performSegue(withIdentifier: "loginSegue", sender: sender)
+        }
+        else {
+            errorT.isHidden = false
+            errorT.text = "Incorrect Login"
+        }
+    }
     /*
     // MARK: - Navigation
 
