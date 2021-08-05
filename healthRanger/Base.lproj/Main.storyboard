@@ -133,7 +133,6 @@
                                 </state>
                                 <connections>
                                     <action selector="loginTapped:" destination="hi2-N6-Sf1" eventType="touchUpInside" id="SKR-5j-VAB"/>
-                                    <segue destination="NPX-Su-vGS" kind="show" identifier="loginSegue" id="zmy-mr-0Za"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="865969" translatesAutoresizingMaskIntoConstraints="NO" id="8sU-Rg-3zD">
@@ -168,12 +167,12 @@
                         <outlet property="errorT" destination="cCT-Mz-7Ug" id="h59-Jc-xGo"/>
                         <outlet property="mailT" destination="N7v-w7-njI" id="M6f-10-Iam"/>
                         <outlet property="pwT" destination="Otg-Ji-Vrf" id="v4N-sR-JAh"/>
-                        <segue destination="NPX-Su-vGS" kind="show" id="rAc-0G-heI"/>
+                        <segue destination="NPX-Su-vGS" kind="show" identifier="loginSegue" id="rAc-0G-heI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwj-Af-6zz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="886" y="78"/>
+            <point key="canvasLocation" x="986" y="78"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="eZ6-74-ppL">
@@ -318,7 +317,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SXI-7f-7uR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1755" y="78"/>
+            <point key="canvasLocation" x="1910" y="78"/>
         </scene>
         <!--History View Controller-->
         <scene sceneID="RDr-pw-esz">
@@ -372,7 +371,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3xb-9S-rVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2633" y="78"/>
+            <point key="canvasLocation" x="2823" y="78"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="Z40-vi-GG5">
@@ -488,7 +487,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VdU-Ej-uFF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="750"/>
+            <point key="canvasLocation" x="19" y="925"/>
         </scene>
         <!--Blood Pressure View Controller-->
         <scene sceneID="2O2-of-RkE">
@@ -555,7 +554,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38y-JP-1Pp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2294" y="840"/>
+            <point key="canvasLocation" x="2312" y="925"/>
         </scene>
         <!--Heart Rate View Controller-->
         <scene sceneID="OFr-bD-0WW">
@@ -644,7 +643,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MhX-gT-UO4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1371.0144927536232" y="839.73214285714278"/>
+            <point key="canvasLocation" x="1372" y="925"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

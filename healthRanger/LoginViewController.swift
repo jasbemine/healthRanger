@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
     
     var email = ""
     var password = ""
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,8 +33,10 @@ class LoginViewController: UIViewController {
             self.performSegue(withIdentifier: "loginSegue", sender: sender)
         }
         else {
+            
             errorT.isHidden = false
             errorT.text = "Incorrect Login"
+            
         }
     }
     /*
