@@ -9,6 +9,7 @@ import UIKit
 
 class HeartRateViewController: UIViewController {
 
+ 
     @IBOutlet weak var outputLabel: UILabel!
     
     @IBOutlet weak var output2Label: UILabel!
@@ -43,7 +44,7 @@ class HeartRateViewController: UIViewController {
     }
   
     
-    @IBAction func redo1(_ sender: UIButton) {
+    @IBAction func redoTapped(_ sender: Any) {
         outputLabel.isHidden = true
         output2Label.isHidden = true
     }
