@@ -19,7 +19,8 @@ class BloodPressureViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        outputLabel1.isHidden = true
+        outputLabel2.isHidden = true
         // Do any additional setup after loading the view.
     }
     lazy var systolicString = systolicTextField!.text
@@ -30,6 +31,8 @@ class BloodPressureViewController: UIViewController {
     
     
     @IBAction func submitDone(_ sender: UIButton) {
+        outputLabel1.isHidden = false
+        outputLabel2.isHidden = false
         if rateNum! <= 129 && presRate! <= 80 {
             outputLabel1.text = "Your blood pressure is in a normal range"
             outputLabel2.text = "Maintain a healthy diet high in whole grains, fresh fruits, and vegetables. Continue to exercise at least 2 hours and 30 minutes per week."
@@ -52,7 +55,11 @@ class BloodPressureViewController: UIViewController {
         }
     }
     
-
+    @IBAction func redoB(_ sender: UIButton) {
+        outputLabel1.isHidden = true
+        outputLabel2.isHidden = true
+    }
+    
     /*
     // MARK: - Navigation
 

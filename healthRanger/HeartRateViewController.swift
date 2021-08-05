@@ -17,7 +17,8 @@ class HeartRateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        outputLabel.isHidden = true
+        output2Label.isHidden = true
         // Do any additional setup after loading the view.
     }
    
@@ -25,6 +26,8 @@ class HeartRateViewController: UIViewController {
     lazy var rateNum = Int(heartString!)
     
     @IBAction func submitTap(_ sender: UIButton) {
+        outputLabel.isHidden = false
+        output2Label.isHidden = false
         if rateNum! >= 49 && rateNum! <= 66 {
             outputLabel.text = "Your resting heart rate is excellent, below the average range"
             output2Label.text = "Continue your current exercise and healthy diet routine"
@@ -37,6 +40,12 @@ class HeartRateViewController: UIViewController {
             output2Label.text = "Please consult your physician"
             
         }
+    }
+  
+    
+    @IBAction func redo1(_ sender: UIButton) {
+        outputLabel.isHidden = true
+        output2Label.isHidden = true
     }
     
     /*
