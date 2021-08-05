@@ -764,7 +764,6 @@
         <!--Heart Rate View Controller-->
         <scene sceneID="OFr-bD-0WW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MhX-gT-UO4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="oR5-GT-C5D" customClass="HeartRateViewController" customModule="healthRanger" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Faq-Z7-2eX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -861,6 +860,7 @@
                         <outlet property="outputLabel" destination="dA7-n5-L9R" id="sNI-CU-hBA"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MhX-gT-UO4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1371.0144927536232" y="924.77678571428567"/>
         </scene>
@@ -870,9 +870,9 @@
         <segue reference="XiG-U5-222"/>
         <segue reference="jYi-M5-cTi"/>
         <segue reference="hbP-oh-lMO"/>
-        <segue reference="N5V-6m-aV0"/>
+        <segue reference="rAc-0G-heI"/>
         <segue reference="OPw-et-NdL"/>
-        <segue reference="fYc-55-Tna"/>
+        <segue reference="mZ0-my-JeD"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="865969" width="512" height="512"/>

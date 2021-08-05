@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
     @IBAction func loginTapped(_ sender: UIButton) {
         let email: String = mailT.text!
         let password: String = pwT.text!
-        if email == "jasbemine1@gmail.com" && password == "kodewithklossy"{
+        if email == "healthranger@gmail.com" && password == "kodewithklossy"{
             self.performSegue(withIdentifier: "loginSegue", sender: sender)
         }
         else {
