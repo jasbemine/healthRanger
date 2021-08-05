@@ -9,13 +9,36 @@ import UIKit
 
 class HeartRateViewController: UIViewController {
 
+    @IBOutlet weak var outputLabel: UILabel!
+    
+    @IBOutlet weak var output2Label: UILabel!
+    
+    @IBOutlet weak var heartrateTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+   
+    lazy var heartString = heartrateTextField!.text
+    lazy var rateNum = Int(heartString!)
     
-
+    @IBAction func submitTap(_ sender: UIButton) {
+        if rateNum! >= 49 && rateNum! <= 66 {
+            outputLabel.text = "Your resting heart rate is excellent, below the average range"
+            output2Label.text = "Continue your current exercise and healthy diet routine"
+        }
+        else if rateNum! >= 67 && rateNum! <= 74 {
+            outputLabel.text = "Your resting heart rate is in the average range"
+            output2Label.text = "Increase your current exercise routine and incorporate more heart-healthy foods (Omega-3, whole grains, fiber) into your diet"
+        }
+        else { outputLabel.text = "Your resting heart rate is higher than the average range"
+            output2Label.text = "Please consult your physician"
+            
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
